@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.wireframeapp-merged_res-28:/layout_activity_welcome.xml.flat",
+        "source": "com.example.wireframeapp-main-30:/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "com.example.wireframeapp-merged_res-28:/layout_activity_create_account.xml.flat",
+        "source": "com.example.wireframeapp-main-30:/layout/activity_create_account.xml"
+    }
+]

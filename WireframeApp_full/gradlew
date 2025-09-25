@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+DIRNAME="$(cd "$(dirname "$0")" && pwd)"
+"$DIRNAME/gradle/gradlew" "$@"
