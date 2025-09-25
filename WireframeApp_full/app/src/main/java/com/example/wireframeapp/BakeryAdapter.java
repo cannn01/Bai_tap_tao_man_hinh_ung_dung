@@ -5,43 +5,47 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-public class BakeryAdapter extends RecyclerView.Adapter<BakeryAdapter.ViewHolder> {
-    private List<BakeryItem> items;
+public class BakeryAdapter extends RecyclerView.Adapter<BakeryAdapter.BakeryViewHolder> {
 
-    public BakeryAdapter(List<BakeryItem> items) {
-        this.items = items;
+    private List<BakeryItem> bakeryList;
+
+    public BakeryAdapter(List<BakeryItem> bakeryList) {
+        this.bakeryList = bakeryList;
     }
 
     @NonNull
     @Override
-    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_bakery, parent, false);
-        return new ViewHolder(v);
+    public BakeryViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext())
+                .inflate(R.layout.item_bakery, parent, false);
+        return new BakeryViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        BakeryItem it = items.get(position);
-        holder.name.setText(it.getName());
-        holder.img.setImageResource(it.getImageRes());
+    public void onBindViewHolder(@NonNull BakeryViewHolder holder, int position) {
+        BakeryItem item = bakeryList.get(position);
+        holder.name.setText(item.getName());
+        holder.image.setImageResource(item.getImageResId());
     }
 
     @Override
-    public int getItemCount() { return items.size(); }
+    public int getItemCount() {
+        return bakeryList.size();
+    }
 
-    static class ViewHolder extends RecyclerView.ViewHolder {
-        ImageView img;
+    public static class BakeryViewHolder extends RecyclerView.ViewHolder {
         TextView name;
-        ViewHolder(View v) {
-            super(v);
-            img = v.findViewById(R.id.itemImage);
-            name = v.findViewById(R.id.itemName);
+        ImageView image;
+
+        public BakeryViewHolder(View itemView) {
+            super(itemView);
+            name = itemView.findViewById(R.id.bakeryName);
+            image = itemView.findViewById(R.id.bakeryImage);
         }
     }
 }

@@ -2,13 +2,18 @@ package com.example.wireframeapp;
 
 public class BakeryItem {
     private String name;
-    private int imageRes;
+    private int imageResId;
 
-    public BakeryItem(String name, int imageRes) {
+    public BakeryItem(String name, int imageResId) {
         this.name = name;
-        this.imageRes = imageRes;
+        this.imageResId = imageResId;
     }
 
-    public String getName() { return name; }
-    public int getImageRes() { return imageRes; }
+    public String getName() {
+        return name;
+    }
+
+    public int getImageResId() {
+        return imageResId;
+    }
 }

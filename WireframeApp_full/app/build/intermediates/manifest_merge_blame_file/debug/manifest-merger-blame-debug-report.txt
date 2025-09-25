@@ -20,7 +20,7 @@
 15-->[androidx.core:core:1.9.0] C:\Users\ADMIN\.gradle\caches\transforms-3\4b346bdb2a636a7c2d646e0226e6cd41\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->D:\android studio\New folder\WireframeApp_full\app\src\main\AndroidManifest.xml:5:5-20:19
+17-->D:\android studio\New folder\WireframeApp_full\app\src\main\AndroidManifest.xml:5:5-26:19
 18        android:allowBackup="true"
 18-->D:\android studio\New folder\WireframeApp_full\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -34,48 +34,55 @@
 24        android:testOnly="true"
 25        android:theme="@style/Theme.WireframeApp" >
 25-->D:\android studio\New folder\WireframeApp_full\app\src\main\AndroidManifest.xml:9:9-50
-26        <activity android:name="com.example.wireframeapp.CreateAccountActivity" />
-26-->D:\android studio\New folder\WireframeApp_full\app\src\main\AndroidManifest.xml:10:9-58
-26-->D:\android studio\New folder\WireframeApp_full\app\src\main\AndroidManifest.xml:10:19-56
-27        <activity
-27-->D:\android studio\New folder\WireframeApp_full\app\src\main\AndroidManifest.xml:11:9-18:20
-28            android:name="com.example.wireframeapp.WelcomeActivity"
-28-->D:\android studio\New folder\WireframeApp_full\app\src\main\AndroidManifest.xml:12:13-44
-29            android:exported="true" >
-29-->D:\android studio\New folder\WireframeApp_full\app\src\main\AndroidManifest.xml:13:13-36
-30            <intent-filter>
-30-->D:\android studio\New folder\WireframeApp_full\app\src\main\AndroidManifest.xml:14:13-17:29
-31                <action android:name="android.intent.action.MAIN" />
-31-->D:\android studio\New folder\WireframeApp_full\app\src\main\AndroidManifest.xml:15:17-69
-31-->D:\android studio\New folder\WireframeApp_full\app\src\main\AndroidManifest.xml:15:25-66
-32
-33                <category android:name="android.intent.category.LAUNCHER" />
-33-->D:\android studio\New folder\WireframeApp_full\app\src\main\AndroidManifest.xml:16:17-77
-33-->D:\android studio\New folder\WireframeApp_full\app\src\main\AndroidManifest.xml:16:27-74
-34            </intent-filter>
-35        </activity>
-36
-37        <provider
-37-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\bab4c2861e9b692134e78e614adc0bf2\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-38            android:name="androidx.startup.InitializationProvider"
-38-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\bab4c2861e9b692134e78e614adc0bf2\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-39            android:authorities="com.example.wireframeapp.androidx-startup"
-39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\bab4c2861e9b692134e78e614adc0bf2\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-40            android:exported="false" >
-40-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\bab4c2861e9b692134e78e614adc0bf2\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-41            <meta-data
-41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\bab4c2861e9b692134e78e614adc0bf2\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-42                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\bab4c2861e9b692134e78e614adc0bf2\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-43                android:value="androidx.startup" />
-43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\bab4c2861e9b692134e78e614adc0bf2\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-44            <meta-data
-44-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ADMIN\.gradle\caches\transforms-3\a9f71cf9a3eb4f37c1cd66ad12ba3965\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-45                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-45-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ADMIN\.gradle\caches\transforms-3\a9f71cf9a3eb4f37c1cd66ad12ba3965\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-46                android:value="androidx.startup" />
-46-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ADMIN\.gradle\caches\transforms-3\a9f71cf9a3eb4f37c1cd66ad12ba3965\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-47        </provider>
-48    </application>
-49
-50</manifest>
+26
+27        <!-- WelcomeActivity là màn hình đầu tiên -->
+28        <activity
+28-->D:\android studio\New folder\WireframeApp_full\app\src\main\AndroidManifest.xml:12:9-19:20
+29            android:name="com.example.wireframeapp.WelcomeActivity"
+29-->D:\android studio\New folder\WireframeApp_full\app\src\main\AndroidManifest.xml:13:13-44
+30            android:exported="true" >
+30-->D:\android studio\New folder\WireframeApp_full\app\src\main\AndroidManifest.xml:14:13-36
+31            <intent-filter>
+31-->D:\android studio\New folder\WireframeApp_full\app\src\main\AndroidManifest.xml:15:13-18:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->D:\android studio\New folder\WireframeApp_full\app\src\main\AndroidManifest.xml:16:17-69
+32-->D:\android studio\New folder\WireframeApp_full\app\src\main\AndroidManifest.xml:16:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->D:\android studio\New folder\WireframeApp_full\app\src\main\AndroidManifest.xml:17:17-77
+34-->D:\android studio\New folder\WireframeApp_full\app\src\main\AndroidManifest.xml:17:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <!-- MainActivity sẽ được mở sau khi login -->
+39        <activity
+39-->D:\android studio\New folder\WireframeApp_full\app\src\main\AndroidManifest.xml:22:9-24:40
+40            android:name="com.example.wireframeapp.MainActivity"
+40-->D:\android studio\New folder\WireframeApp_full\app\src\main\AndroidManifest.xml:23:13-41
+41            android:exported="false" />
+41-->D:\android studio\New folder\WireframeApp_full\app\src\main\AndroidManifest.xml:24:13-37
+42
+43        <provider
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\bab4c2861e9b692134e78e614adc0bf2\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+44            android:name="androidx.startup.InitializationProvider"
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\bab4c2861e9b692134e78e614adc0bf2\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+45            android:authorities="com.example.wireframeapp.androidx-startup"
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\bab4c2861e9b692134e78e614adc0bf2\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+46            android:exported="false" >
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\bab4c2861e9b692134e78e614adc0bf2\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+47            <meta-data
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\bab4c2861e9b692134e78e614adc0bf2\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\bab4c2861e9b692134e78e614adc0bf2\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+49                android:value="androidx.startup" />
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ADMIN\.gradle\caches\transforms-3\bab4c2861e9b692134e78e614adc0bf2\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+50            <meta-data
+50-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ADMIN\.gradle\caches\transforms-3\a9f71cf9a3eb4f37c1cd66ad12ba3965\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+51-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ADMIN\.gradle\caches\transforms-3\a9f71cf9a3eb4f37c1cd66ad12ba3965\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+52                android:value="androidx.startup" />
+52-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ADMIN\.gradle\caches\transforms-3\a9f71cf9a3eb4f37c1cd66ad12ba3965\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+53        </provider>
+54    </application>
+55
+56</manifest>

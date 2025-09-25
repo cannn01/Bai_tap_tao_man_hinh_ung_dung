@@ -2913,11 +2913,13 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable cupcake
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable donut
 drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
@@ -2941,6 +2943,7 @@ drawable m3_tabs_background
 drawable m3_tabs_line_indicator
 drawable m3_tabs_rounded_line_indicator
 drawable m3_tabs_transparent_background
+drawable macaron
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -3001,6 +3004,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable rollcake
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3091,6 +3095,8 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id bakeryImage
+id bakeryName
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3102,7 +3108,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id btnCreate
 id btnLogin
 id buttonPanel
 id cache_measures
@@ -3186,10 +3191,6 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
-id etEmailCreate
-id etFullName
-id etPassConfirm
-id etPassCreate
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3237,8 +3238,6 @@ id info
 id invisible
 id inward
 id italic
-id itemImage
-id itemName
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
@@ -3356,6 +3355,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerView
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3622,7 +3622,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_create_account
+layout activity_main
 layout activity_welcome
 layout custom_dialog
 layout design_bottom_navigation_item

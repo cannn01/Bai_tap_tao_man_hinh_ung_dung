@@ -23,7 +23,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.WireframeApp" >
-        <activity android:name="com.example.wireframeapp.CreateAccountActivity" />
+
+        <!-- WelcomeActivity là màn hình đầu tiên -->
         <activity
             android:name="com.example.wireframeapp.WelcomeActivity"
             android:exported="true" >
@@ -33,6 +34,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- MainActivity sẽ được mở sau khi login -->
+        <activity
+            android:name="com.example.wireframeapp.MainActivity"
+            android:exported="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
