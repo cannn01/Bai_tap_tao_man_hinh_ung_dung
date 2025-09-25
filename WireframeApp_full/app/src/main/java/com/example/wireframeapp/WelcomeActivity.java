@@ -2,40 +2,42 @@ package com.example.wireframeapp;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class WelcomeActivity extends AppCompatActivity {
-    EditText etEmail, etPassword;
-    Button btnSignIn;
-    TextView tvCreateAccount;
+    EditText edtUser, edtPass;
+    Button btnLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
 
-        etEmail = findViewById(R.id.etEmail);
-        etPassword = findViewById(R.id.etPassword);
-        btnSignIn = findViewById(R.id.btnSignIn);
-        tvCreateAccount = findViewById(R.id.tvCreateAccount);
+        edtUser = findViewById(R.id.edtUser);
+        edtPass = findViewById(R.id.edtPass);
+        btnLogin = findViewById(R.id.btnLogin);
 
-        btnSignIn.setOnClickListener(v -> {
-            String email = etEmail.getText().toString().trim();
-            String pass = etPassword.getText().toString().trim();
-            if(email.isEmpty() || pass.isEmpty()){
-                Toast.makeText(this, "Please fill all fields", Toast.LENGTH_SHORT).show();
-            } else {
-                Toast.makeText(this, "Signed in (demo)", Toast.LENGTH_SHORT).show();
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String u = edtUser.getText().toString().trim();
+                String p = edtPass.getText().toString().trim();
+                if (TextUtils.isEmpty(u) || TextUtils.isEmpty(p)) {
+                    Toast.makeText(WelcomeActivity.this, "Vui lòng nhập tài khoản và mật khẩu", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                if (u.equals("admin") && p.equals("admin")) {
+                    startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
+                    finish();
+                } else {
+                    Toast.makeText(WelcomeActivity.this, "Sai tài khoản hoặc mật khẩu", Toast.LENGTH_SHORT).show();
+                }
             }
-        });
-
-        tvCreateAccount.setOnClickListener(v -> {
-            Intent i = new Intent(WelcomeActivity.this, CreateAccountActivity.class);
-            startActivity(i);
         });
     }
 }

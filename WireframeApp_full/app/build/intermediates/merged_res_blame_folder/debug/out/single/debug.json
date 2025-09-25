@@ -1,10 +1,18 @@
 [
     {
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.4\\com.example.wireframeapp-merged_res-28:\\layout_activity_welcome.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.4\\com.example.wireframeapp-main-30:\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "com.example.wireframeapp-merged_res-28:/layout_item_bakery.xml.flat",
+        "source": "com.example.wireframeapp-main-30:/layout/item_bakery.xml"
+    },
+    {
         "merged": "com.example.wireframeapp-merged_res-28:/layout_activity_welcome.xml.flat",
         "source": "com.example.wireframeapp-main-30:/layout/activity_welcome.xml"
     },
     {
-        "merged": "com.example.wireframeapp-merged_res-28:/layout_activity_create_account.xml.flat",
-        "source": "com.example.wireframeapp-main-30:/layout/activity_create_account.xml"
+        "merged": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.4\\com.example.wireframeapp-merged_res-28:\\layout_activity_create_account.xml.flat",
+        "source": "C:\\Users\\ADMIN\\.gradle\\daemon\\8.4\\com.example.wireframeapp-main-30:\\layout\\activity_create_account.xml"
     }
 ]

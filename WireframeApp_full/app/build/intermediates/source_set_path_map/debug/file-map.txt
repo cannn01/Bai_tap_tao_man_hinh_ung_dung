@@ -22,10 +22,10 @@ com.example.wireframeapp-coordinatorlayout-1.1.0-20 C:\Users\ADMIN\.gradle\cache
 com.example.wireframeapp-startup-runtime-1.1.1-21 C:\Users\ADMIN\.gradle\caches\transforms-3\d1d3e3ae77879934ecb2317767cc6fde\transformed\startup-runtime-1.1.1\res
 com.example.wireframeapp-lifecycle-viewmodel-2.5.1-22 C:\Users\ADMIN\.gradle\caches\transforms-3\eaab8689357ec88a86b8bffea900c6bf\transformed\lifecycle-viewmodel-2.5.1\res
 com.example.wireframeapp-viewpager2-1.0.0-23 C:\Users\ADMIN\.gradle\caches\transforms-3\f054fe2c3d28aa0a33d09e2c12df9b3c\transformed\viewpager2-1.0.0\res
-com.example.wireframeapp-pngs-24 C:\Users\ADMIN\Downloads\WireframeApp_full\app\build\generated\res\pngs\debug
-com.example.wireframeapp-resValues-25 C:\Users\ADMIN\Downloads\WireframeApp_full\app\build\generated\res\resValues\debug
-com.example.wireframeapp-packageDebugResources-26 C:\Users\ADMIN\Downloads\WireframeApp_full\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.wireframeapp-packageDebugResources-27 C:\Users\ADMIN\Downloads\WireframeApp_full\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.wireframeapp-merged_res-28 C:\Users\ADMIN\Downloads\WireframeApp_full\app\build\intermediates\merged_res\debug
-com.example.wireframeapp-debug-29 C:\Users\ADMIN\Downloads\WireframeApp_full\app\src\debug\res
-com.example.wireframeapp-main-30 C:\Users\ADMIN\Downloads\WireframeApp_full\app\src\main\res
+com.example.wireframeapp-pngs-24 D:\android studio\New folder\WireframeApp_full\app\build\generated\res\pngs\debug
+com.example.wireframeapp-resValues-25 D:\android studio\New folder\WireframeApp_full\app\build\generated\res\resValues\debug
+com.example.wireframeapp-packageDebugResources-26 D:\android studio\New folder\WireframeApp_full\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.wireframeapp-packageDebugResources-27 D:\android studio\New folder\WireframeApp_full\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.wireframeapp-merged_res-28 D:\android studio\New folder\WireframeApp_full\app\build\intermediates\merged_res\debug
+com.example.wireframeapp-debug-29 D:\android studio\New folder\WireframeApp_full\app\src\debug\res
+com.example.wireframeapp-main-30 D:\android studio\New folder\WireframeApp_full\app\src\main\res
