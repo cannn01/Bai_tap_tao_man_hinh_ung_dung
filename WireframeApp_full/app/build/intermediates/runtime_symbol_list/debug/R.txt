@@ -3144,6 +3144,7 @@ int id cos 0x7f080084
 int id counterclockwise 0x7f080085
 int id cradle 0x7f080086
 int id currentState 0x7f080087
+int id curvedDecoration 0x7f080200
 int id custom 0x7f080088
 int id customPanel 0x7f080089
 int id cut 0x7f08008a
@@ -3218,6 +3219,7 @@ int id graph_wrap 0x7f0800d2
 int id group_divider 0x7f0800d3
 int id grouping 0x7f0800d4
 int id groups 0x7f0800d5
+int id headerDecoration 0x7f080201
 int id header_title 0x7f0800d6
 int id hideable 0x7f0800d7
 int id home 0x7f0800d8
@@ -3469,6 +3471,7 @@ int id textinput_prefix_text 0x7f0801cc
 int id textinput_suffix_text 0x7f0801cd
 int id time 0x7f0801ce
 int id title 0x7f0801cf
+int id titleCard 0x7f080202
 int id titleDividerNoCustom 0x7f0801d0
 int id title_template 0x7f0801d1
 int id toggle 0x7f0801d2

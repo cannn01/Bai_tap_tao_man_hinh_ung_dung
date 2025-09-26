@@ -13,9 +13,12 @@ drawable rollcake
 id bakeryImage
 id bakeryName
 id btnLogin
+id curvedDecoration
 id edtPass
 id edtUser
+id headerDecoration
 id recyclerView
+id titleCard
 id tvNote
 id tvTitle
 layout activity_main

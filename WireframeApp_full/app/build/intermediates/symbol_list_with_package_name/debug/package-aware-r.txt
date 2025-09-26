@@ -3145,6 +3145,7 @@ id cos
 id counterclockwise
 id cradle
 id currentState
+id curvedDecoration
 id custom
 id customPanel
 id cut
@@ -3219,6 +3220,7 @@ id graph_wrap
 id group_divider
 id grouping
 id groups
+id headerDecoration
 id header_title
 id hideable
 id home
@@ -3470,6 +3472,7 @@ id textinput_prefix_text
 id textinput_suffix_text
 id time
 id title
+id titleCard
 id titleDividerNoCustom
 id title_template
 id toggle
